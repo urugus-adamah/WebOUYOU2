@@ -1,7 +1,7 @@
 <template>
   <div class="header flex">
     <div class="left">
-      <img class="logo" src="../assets/logo.png" alt="">
+      <img class="logo" src="../assets/logo.png" alt="" @click="$router.push('/')">
     </div>
     <div class="right flex">
       <p @click="$router.push('/signup')">新規登録</p>

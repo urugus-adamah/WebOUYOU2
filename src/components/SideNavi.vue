@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <div class="side-nav">
-      <img class="logo" alt="Vue logo" src="../assets/logo.png">
+      <img class="logo" alt="Vue logo" src="../assets/logo.png" @click="$router.push('/')">
       <div>
         <ul>
           <li class="home" @click="$router.push('/home')">
